@@ -1,0 +1,4 @@
+#!/bin/sh
+# .husky/pre-commit
+
+npm run lint-staged
