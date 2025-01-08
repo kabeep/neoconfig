@@ -45,9 +45,7 @@
 
 \> ***使用支持 Unicode Symbols 字体的终端，以获得 `NeoFetch` 和 `NeoConfig` 的最佳使用体验***
 
-> 许多终端原生支持字体，如 zsh/CMD/PowerShell/JetBrain...，可以省略这一步骤
-
-也有些不支持或部分支持，LinuxOS、基于 `xterm-256color` 实现的命令行如 `Microsoft/VSCode` 或者 `Vercel/Hyper`,
+有些不支持或部分支持，LinuxOS、基于 `xterm-256color` 实现的命令行如 `Microsoft/VSCode` 或者 `Vercel/Hyper`,
 详见 https://github.com/xtermjs/xterm.js/issues/2693 。
 
 此时需要自行下载字体，推荐 [Nerd Symbols Font][nerd-url]，它在命令行程序中使用更为广泛。

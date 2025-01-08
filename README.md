@@ -47,9 +47,6 @@ screen recording and presentation scenarios.
 
 ***\> Use a terminal that supports Unicode Symbols for the best experience with `NeoFetch` and `NeoConfig`.***
 
-> Many terminals, such as zsh, CMD, PowerShell, and JetBrains, support such fonts natively, so this step may be
-> optional.
-
 Some terminals have limited or no support, especially those based on `xterm-256color`, like `Microsoft/VSCode` or
 `Vercel/Hyper`.
 See https://github.com/xtermjs/xterm.js/issues/2693 for details.
