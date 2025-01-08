@@ -12,8 +12,6 @@
 
 [English][en-us-url] | 简体中文
 
-![Insights][insights-image]
-
 <img width="814" src="docs/images/usage.gif" alt="usage-gif">
 
 </div>
@@ -149,8 +147,6 @@ neoconfig
 
 本项目采用 MIT 许可证。详情请见 [LICENSE][license-url] 文件。
 
-
-[insights-image]: https://repobeats.axiom.co/api/embed/788ba6ff3ebd97d768044c0e5d43fcb483faf843.svg
 
 [node-image]: https://img.shields.io/node/v/%40kabeep%2Fneoconfig?color=lightseagreen
 [node-url]: https://nodejs.org/
