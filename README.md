@@ -28,40 +28,40 @@ screen recording and presentation scenarios.
 
 ## ⚙️ Prerequisites
 
-- Install [NeoFetch][neofetch-url]. Without it, this package serves no purpose.
+***\> Install [NeoFetch][neofetch-url]. Without it, this package serves no purpose.***
 
-  1. NPM ([Node.js][node-url])
-      ```bash
-      npm i -g neofetch
-      ```
+1. NPM ([Node.js][node-url])
+    ```bash
+    npm i -g neofetch
+    ```
 
-  2. Windows
-      ```bash
-      scoop i -g neofetch
-      ```
+2. Windows
+    ```bash
+    scoop i -g neofetch
+    ```
 
-  3. MacOS
-      ```bash
-      brew i -g neofetch
-      ```
+3. MacOS
+    ```bash
+    brew i -g neofetch
+    ```
 
-- Use a terminal that supports Unicode Symbols for the best experience with `NeoFetch` and `NeoConfig`.
+***\> Use a terminal that supports Unicode Symbols for the best experience with `NeoFetch` and `NeoConfig`.***
 
-  (Many terminals, such as zsh, CMD, PowerShell, and JetBrains, support such fonts natively, so this step may be
-  optional.)
+> Many terminals, such as zsh, CMD, PowerShell, and JetBrains, support such fonts natively, so this step may be
+> optional.
 
-> Some terminals have limited or no support, especially those based on `xterm-256color`, like `Microsoft/VSCode` or
-> `Vercel/Hyper`.
-> See https://github.com/xtermjs/xterm.js/issues/2693 for details.
->
-> In such cases, you'll need to download a compatible font. We recommend [Nerd Symbols Font][nerd-url], which is widely
-> used in command-line applications.
->
-> After downloading the font, configure your terminal accordingly. For example, on Windows 11 and Hyper:
->
-> Install the font via `Settings` > `Personalization` > `Fonts`.
-> Add the font name to the `fontFamily` setting in `Hyper`'s configuration file.
-> The same applies to editors like `Sublime Text` and `VSCode`.
+Some terminals have limited or no support, especially those based on `xterm-256color`, like `Microsoft/VSCode` or
+`Vercel/Hyper`.
+See https://github.com/xtermjs/xterm.js/issues/2693 for details.
+
+In such cases, you'll need to download a compatible font. We recommend [Nerd Symbols Font][nerd-url], which is widely
+used in command-line applications.
+
+After downloading the font, configure your terminal accordingly. For example, on Windows 11 and Hyper:
+
+Install the font via `Settings` > `Personalization` > `Fonts`.
+Add the font name to the `fontFamily` setting in `Hyper`'s configuration file.
+The same applies to editors like `Sublime Text` and `VSCode`.
 
 ## 📦 Installation
 

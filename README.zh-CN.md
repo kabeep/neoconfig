@@ -26,34 +26,34 @@
 
 ## ⚙️ 先决条件
 
-- 安装 [NeoFetch][neofetch-url]，如果没有它，这个包没有任何意义。
+\> ***安装 [NeoFetch][neofetch-url]，如果没有它，这个包没有任何意义。***
 
-  1. NPM ([Node.js][node-url])
-      ```bash
-      npm i -g neofetch
-      ```
+1. NPM ([Node.js][node-url])
+    ```bash
+    npm i -g neofetch
+    ```
 
-  2. Windows
-      ```bash
-      scoop i -g neofetch
-      ```
+2. Windows
+    ```bash
+    scoop i -g neofetch
+    ```
 
-  3. MacOS
-      ```bash
-      brew i -g neofetch
-      ```
+3. MacOS
+    ```bash
+    brew i -g neofetch
+    ```
 
-- 使用支持 Unicode Symbols 字体的终端，以获得 `NeoFetch` 和 `NeoConfig` 的最佳使用体验
+\> ***使用支持 Unicode Symbols 字体的终端，以获得 `NeoFetch` 和 `NeoConfig` 的最佳使用体验***
 
-  (许多终端原生支持字体，如 zsh/CMD/PowerShell/JetBrain...，可以省略这一步骤)
+> 许多终端原生支持字体，如 zsh/CMD/PowerShell/JetBrain...，可以省略这一步骤
 
-> 也有些不支持或部分支持，LinuxOS、基于 `xterm-256color` 实现的命令行如 `Microsoft/VSCode`/`Vercel/Hyper`...
-> 详见 https://github.com/xtermjs/xterm.js/issues/2693
->
-> 此时需要自行下载字体，推荐 [Nerd Symbols Font][nerd-url]，它在命令行程序中使用更为广泛。
->
-> 下载字体后仍需为命令行配置，拿 Windows 11 和 Hyper 举例，需要将字体文件安装到 `设置` > `个性化` > `字体` 中，然后在
-> `Hyper` 配置文件的 `fontFamily` 中添加这一字体，`Sublime Text` 和 `VSCode` 也同理。
+也有些不支持或部分支持，LinuxOS、基于 `xterm-256color` 实现的命令行如 `Microsoft/VSCode` 或者 `Vercel/Hyper`,
+详见 https://github.com/xtermjs/xterm.js/issues/2693 。
+
+此时需要自行下载字体，推荐 [Nerd Symbols Font][nerd-url]，它在命令行程序中使用更为广泛。
+
+下载字体后仍需为命令行配置，拿 Windows 11 和 Hyper 举例，需要将字体文件安装到 `设置` > `个性化` > `字体` 中，然后在
+`Hyper` 配置文件的 `fontFamily` 中添加这一字体，`Sublime Text` 和 `VSCode` 也同理。
 
 ## 📦 安装
 
