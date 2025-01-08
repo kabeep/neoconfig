@@ -108,7 +108,7 @@ neoconfig
 按 CTRL - C 退出交互
 ```
 
-### > 查看更多_
+#### > 查看更多_
 
 [![asciicast][asciinema-image]][asciinema-url]
 

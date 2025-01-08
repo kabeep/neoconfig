@@ -81,7 +81,7 @@ pnpm add --global @kabeep/neoconfig
 
 ## 🚀 Usage
 
-### \$ Show help_
+#### \$ Show help_
 
 ```bash
 neoconfig -h
@@ -95,7 +95,7 @@ Options:
   -v, --version  Show version number                                   [boolean]
 ```
 
-### \$ Interactive configuration_
+#### \$ Interactive configuration_
 
 ```bash
 neoconfig
@@ -116,7 +116,7 @@ Press ENTER to switch themes.
 Press CTRL - C to exit the interaction.
 ```
 
-### $ See more_
+#### $ See more_
 
 [![asciicast][asciinema-image]][asciinema-url]
 
