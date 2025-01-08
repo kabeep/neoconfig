@@ -1,4 +1,4 @@
-import { to } from 'await-to-js';
+import to from './to';
 
 type PipelineStep<T, R> = [(context: T) => Promise<R>, string];
 

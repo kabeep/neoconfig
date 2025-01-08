@@ -1,4 +1,3 @@
-import { to } from 'await-to-js';
 import type { Ora } from 'ora';
 import trash from 'trash';
 import { CONFIG_DIR, THEME_DIR } from './constants';
@@ -10,7 +9,7 @@ import {
     navigate,
     validate,
 } from './helpers';
-import { i18n, isWritable } from './utils';
+import { i18n, isWritable, to } from './utils';
 
 export interface Options {
     _: (string | number)[];

@@ -1,7 +1,6 @@
 import type { PathLike } from 'node:fs';
-import { to } from 'await-to-js';
 import { prompt } from '../components';
-import { fuzzySearch, i18n, readDir } from '../utils';
+import { fuzzySearch, i18n, readDir, to } from '../utils';
 import { type ThemeOptions, ThemeTypes, remapping, validate } from './index';
 
 async function navigate(path: PathLike, parentPath?: PathLike) {

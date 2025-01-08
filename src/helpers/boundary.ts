@@ -1,6 +1,5 @@
-import { to } from 'await-to-js';
 import ora, { type Ora } from 'ora';
-import { i18n } from '../utils';
+import { i18n, to } from '../utils';
 
 function boundary<T extends unknown[] = unknown[], R = unknown>(
     fn: (...args: [...T, Ora]) => Promise<R | undefined>,

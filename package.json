@@ -11,7 +11,7 @@
         "neofetch-configurator": "./dist/cli.js"
     },
     "scripts": {
-        "dev": "cross-env NODE_ENV=development ts-node bin/cli.ts",
+        "dev": "ts-node bin/cli.ts",
         "prepare": "husky",
         "lint": "biome check src bin test --write",
         "lint-staged": "lint-staged",
@@ -23,7 +23,6 @@
     },
     "dependencies": {
         "@inquirer/core": "^10.1.2",
-        "await-to-js": "^3.0.0",
         "ora": "^8.1.1",
         "os-locale": "^6.0.2",
         "trash": "^9.0.0",
@@ -39,7 +38,6 @@
         "@types/update-notifier": "^6.0.8",
         "@types/yargs": "^17.0.33",
         "cloc": "^2.2.0-cloc",
-        "cross-env": "^7.0.3",
         "husky": "^9.1.7",
         "lint-staged": "^15.3.0",
         "size-limit": "^11.1.6",
@@ -52,14 +50,7 @@
     "homepage": "https://github.com/kabeep/neoconfig#readme",
     "repository": "git@github.com:kabeep/neoconfig.git",
     "bugs": "https://github.com/kabeep/neoconfig/issue",
-    "keywords": [
-        "neofetch",
-        "configuration",
-        "nodejs",
-        "file",
-        "manager",
-        "cli"
-    ],
+    "keywords": ["neofetch", "neoconfig", "nodejs", "file", "manager", "cli"],
     "engines": {
         "node": ">=18"
     },

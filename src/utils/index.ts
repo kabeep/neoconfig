@@ -4,6 +4,7 @@ export { default as fuzzySearch } from './fuzzy-search';
 export { default as palette } from './palette';
 export { default as pipeline } from './pipeline';
 export { default as readDir } from './read-dir';
+export { default as to } from './to';
 
 export { default as isExists } from './is-exists';
 export { default as isDir } from './is-dir';

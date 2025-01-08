@@ -1,9 +1,8 @@
 import type { Dirent } from 'node:fs';
 import { extname } from 'node:path';
-import { to } from 'await-to-js';
 import type { Choice } from '../components';
 import { FIGURES } from '../constants';
-import { i18n, palette, readDir } from '../utils';
+import { i18n, palette, readDir, to } from '../utils';
 
 export interface ThemeOptions {
     name: string;
