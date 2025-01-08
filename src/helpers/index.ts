@@ -1,4 +1,5 @@
 export { default as boundary } from './boundary';
+export { default as marowak } from './marowak';
 export { default as copy } from './copy';
 export { default as ensure } from './ensure';
 export { default as navigate } from './navigate';

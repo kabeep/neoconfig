@@ -6,6 +6,7 @@ import {
     boundary,
     copy,
     ensure,
+    marowak,
     navigate,
     validate,
 } from './helpers';
@@ -17,6 +18,7 @@ export interface Options {
 }
 
 async function main(_: Options, spinner: Ora) {
+    console.log(marowak());
     const _isWritable = await isWritable(CONFIG_DIR);
     if (!_isWritable)
         throw new Error(i18n.t('CMD_ERR.EACCES_W_DIR', { path: CONFIG_DIR }));
