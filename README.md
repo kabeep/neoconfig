@@ -12,7 +12,7 @@ A Node.js CLI for the `NeoFetch` configuration file manager.
 
 English | [简体中文][zh-cn-url]
 
-<img width="814" src="docs/images/usage.gif" alt="usage-gif">
+<img width="814" src="docs/images/preview.png" alt="preview-png">
 
 </div>
 
@@ -113,7 +113,7 @@ Press CTRL - C to exit the interaction.
 
 #### $ See more_
 
-[![asciicast][asciinema-image]][asciinema-url]
+[![usage-gif][usage-gif-image]][usage-gif-url]
 
 ## 📄 Supported directory structure
 
@@ -168,8 +168,8 @@ This project is licensed under the MIT License. See the [LICENSE][license-url] f
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
 
-[asciinema-image]: https://asciinema.org/a/697466.svg
-[asciinema-url]: https://asciinema.org/a/697466
+[usage-gif-image]: docs/images/usage.gif
+[usage-gif-url]: https://asciinema.org/a/697466
 
 [license-image]: https://img.shields.io/github/license/kabeep/neoconfig?color=slateblue
 [license-url]: LICENSE

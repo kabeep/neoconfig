@@ -12,7 +12,7 @@
 
 [English][en-us-url] | 简体中文
 
-<img width="814" src="docs/images/usage.gif" alt="usage-gif">
+<img width="814" src="docs/images/preview.zh-CN.png" alt="preview-png">
 
 </div>
 
@@ -104,9 +104,9 @@ neoconfig
 按 CTRL - C 退出交互
 ```
 
-#### > 查看更多_
+#### \> 查看更多_
 
-[![asciicast][asciinema-image]][asciinema-url]
+[![usage-gif][usage-gif-image]][usage-gif-url]
 
 ## 📄 支持目录结构
 
@@ -161,8 +161,8 @@ neoconfig
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
 
-[asciinema-image]: https://asciinema.org/a/697466.svg
-[asciinema-url]: https://asciinema.org/a/697466
+[usage-gif-image]: docs/images/usage.gif
+[usage-gif-url]: https://asciinema.org/a/697466
 
 [license-image]: https://img.shields.io/github/license/kabeep/neoconfig?color=slateblue
 [license-url]: LICENSE
