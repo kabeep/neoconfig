@@ -116,6 +116,10 @@ Press ENTER to switch themes.
 Press CTRL - C to exit the interaction.
 ```
 
+### $ See more_
+
+[![asciicast][asciinema-image]][asciinema-url]
+
 ## 📄 Supported directory structure
 
 ```
@@ -172,6 +176,9 @@ This project is licensed under the MIT License. See the [LICENSE][license-url] f
 
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
+
+[asciinema-image]: https://asciinema.org/a/697466.svg
+[asciinema-url]: https://asciinema.org/a/697466
 
 [license-image]: https://img.shields.io/github/license/kabeep/neofetch?color=slateblue
 [license-url]: LICENSE
