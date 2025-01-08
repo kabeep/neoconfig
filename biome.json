@@ -7,7 +7,7 @@
         "defaultBranch": "master"
     },
     "files": {
-        "ignore": ["dist", "src/locale"],
+        "ignore": ["dist", "src/locale", "src/helpers/marowak.ts"],
         "ignoreUnknown": false
     },
     "formatter": {
