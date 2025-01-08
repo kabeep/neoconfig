@@ -1,5 +1,5 @@
 export default {
-    CMD_NAVIGATE: '请选择一个 NeoFetch 主题',
+    CMD_NAVIGATE: '请选择一个 NeoFetch 主题:',
     CMD_SUCCESS: '已替换主题 {{name}}',
 
     CMD_TIP: {

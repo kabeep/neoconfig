@@ -1,5 +1,5 @@
 export default {
-    CMD_NAVIGATE: 'Please select a NeoFetch theme.',
+    CMD_NAVIGATE: 'Please select a NeoFetch theme:',
     CMD_SUCCESS: 'Theme {{name}} has been successfully applied.',
 
     CMD_TIP: {
