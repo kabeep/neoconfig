@@ -5,9 +5,7 @@
     "type": "module",
     "main": "./dist/cli.js",
     "types": "./dist/cli.d.ts",
-    "files": [
-        "dist"
-    ],
+    "files": ["dist"],
     "bin": {
         "neoconfig": "./dist/cli.js",
         "neofetch-configurator": "./dist/cli.js"
