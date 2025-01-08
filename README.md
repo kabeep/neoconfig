@@ -125,14 +125,17 @@ Press CTRL - C to exit the interaction.
 ├── config.conf                  # Current configuration file
 └── themes                       # Fixed themes directory
     ├── default.conf             # Single configuration file
-    └── large                    # Grouped configurations (no restriction on directory names or nesting depth)
-        ├── myTheme1             # Custom configuration
-        │   ├── ascii.txt        # ASCII art file
-        │   └── config.conf      # Configuration file
-        └── myTheme2             # Nested custom configuration
-            ├── config.conf      # Configuration file
-            └── assets           # Assets referenced by configuration (no restriction on directory names or nesting depth)
-                └── ascii.txt    # ASCII art file
+    ├── large                    # Grouped configurations (no restriction on directory names or nesting depth)
+    │   ├── myTheme1             # Custom configuration
+    │   │   ├── ascii.txt        # ASCII art file
+    │   │   └── config.conf      # Configuration file
+    │   ├── myTheme2             # Nested custom configuration
+    │   │   ├── config.conf      # Configuration file
+    │   │   └── assets           # Assets referenced by configuration (no restriction on directory names or nesting depth)
+    │   │       └── ascii.txt    # ASCII art file
+    │   └── ...
+    ├── small
+    └── ...
 ```
 
 ## 🌐 i18n

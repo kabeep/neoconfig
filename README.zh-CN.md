@@ -117,14 +117,17 @@ neoconfig
 ├── config.conf                  # 当前配置文件
 └── themes                       # 固定主题目录
     ├── default.conf             # 单配置文件
-    └── large                    # 配置文件分组 (不限制目录名称/嵌套深度)
-        ├── myTheme1             # 自定义配置文件
-        │   ├── ascii.txt        # ASCII 字符画
-        │   └── config.conf      # 配置文件
-        └── myTheme2             # 嵌套的自定义配置文件
-            ├── config.conf      # 配置文件
-            └── assets           # 配置文件引用资产 (不限制目录名称/嵌套深度)
-                └── ascii.txt    # ASCII 字符画
+    ├── large                    # 配置文件分组 (不限制目录名称/嵌套深度)
+    │   ├── myTheme1             # 自定义配置文件
+    │   │   ├── ascii.txt        # ASCII 字符画
+    │   │   └── config.conf      # 配置文件
+    │   ├── myTheme2             # 嵌套的自定义配置文件
+    │   │   ├── config.conf      # 配置文件
+    │   │   └── assets           # 配置文件引用资产 (不限制目录名称/嵌套深度)
+    │   │       └── ascii.txt    # ASCII 字符画
+    │   └── ...
+    ├── small
+    └── ...
 ```
 
 ## 🌐 国际化
