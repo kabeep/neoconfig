@@ -49,9 +49,9 @@
         "typescript": "^5.7.2"
     },
     "author": "Jason Zhang <zzx2067@outlook.com>",
-    "homepage": "https://github.com/kabeep/neofetch-configurator#readme",
-    "repository": "git@github.com:kabeep/neofetch-configurator.git",
-    "bugs": "https://github.com/kabeep/neofetch-configurator/issue",
+    "homepage": "https://github.com/kabeep/neoconfig#readme",
+    "repository": "git@github.com:kabeep/neoconfig.git",
+    "bugs": "https://github.com/kabeep/neoconfig/issue",
     "keywords": [
         "neofetch",
         "configuration",
