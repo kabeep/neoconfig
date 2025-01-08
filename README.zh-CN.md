@@ -14,7 +14,7 @@
 
 ![Insights][insights-image]
 
-<img width="814" src="docs/images/usage.gif" alt="usage-png">
+<img width="814" src="docs/images/usage.gif" alt="usage-gif">
 
 </div>
 
