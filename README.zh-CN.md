@@ -12,7 +12,7 @@
 
 [English][en-us-url] | 简体中文
 
-<img width="814" src="docs/images/preview.zh-CN.png" alt="preview-png">
+<img width="720" src="docs/images/preview.zh-CN.png" alt="preview-png">
 
 </div>
 

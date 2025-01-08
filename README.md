@@ -12,7 +12,7 @@ A Node.js CLI for the `NeoFetch` configuration file manager.
 
 English | [简体中文][zh-cn-url]
 
-<img width="814" src="docs/images/preview.png" alt="preview-png">
+<img width="720" src="docs/images/preview.png" alt="preview-png">
 
 </div>
 
