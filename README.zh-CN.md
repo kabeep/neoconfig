@@ -106,7 +106,9 @@ neoconfig
 
 #### \> 查看更多_
 
-[![usage-gif][usage-gif-image]][usage-gif-url]
+<a href="https://asciinema.org/a/697570">
+   <img width="630" alt="asciinema" src="https://asciinema.org/a/697570.svg">
+</a>
 
 ## 📄 支持目录结构
 
@@ -160,9 +162,6 @@ neoconfig
 
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
-
-[usage-gif-image]: docs/images/usage.gif
-[usage-gif-url]: https://asciinema.org/a/697466
 
 [license-image]: https://img.shields.io/github/license/kabeep/neoconfig?color=slateblue
 [license-url]: LICENSE

@@ -113,7 +113,9 @@ Press CTRL - C to exit the interaction.
 
 #### $ See more_
 
-[![usage-gif][usage-gif-image]][usage-gif-url]
+<a href="https://asciinema.org/a/697570">
+   <img width="630" alt="asciinema" src="https://asciinema.org/a/697570.svg">
+</a>
 
 ## 📄 Supported directory structure
 
@@ -167,9 +169,6 @@ This project is licensed under the MIT License. See the [LICENSE][license-url] f
 
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
-
-[usage-gif-image]: docs/images/usage.gif
-[usage-gif-url]: https://asciinema.org/a/697466
 
 [license-image]: https://img.shields.io/github/license/kabeep/neoconfig?color=slateblue
 [license-url]: LICENSE
