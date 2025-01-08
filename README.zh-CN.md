@@ -152,19 +152,14 @@ neoconfig
 
 [insights-image]: https://repobeats.axiom.co/api/embed/788ba6ff3ebd97d768044c0e5d43fcb483faf843.svg
 
-[node-image]: https://img.shields.io/node/v/%40kabeep%2Fneofetch?color=lightseagreen
+[node-image]: https://img.shields.io/node/v/%40kabeep%2Fneoconfig?color=lightseagreen
 [node-url]: https://nodejs.org/
 
-[neofetch-url]: https://github.com/dylanaraps/neofetch
-[nerd-url]: https://www.nerdfonts.com/font-downloads
-[neofetch-themes-url]: https://github.com/Chick2D/neofetch-themes
-[neocat-url]: https://github.com/m3tozz/NeoCat
+[npm-image]: https://img.shields.io/npm/d18m/%40kabeep%2Fneoconfig?color=fa6673
+[npm-url]: https://www.npmjs.com/package/@kabeep/neoconfig
 
-[npm-image]: https://img.shields.io/npm/d18m/%40kabeep%2Fneofetch?color=fa6673
-[npm-url]: https://www.npmjs.com/package/@kabeep/neofetch
-
-[install-size-image]: https://packagephobia.com/badge?p=@kabeep/neofetch
-[install-size-url]: https://packagephobia.com/result?p=@kabeep/neofetch
+[install-size-image]: https://packagephobia.com/badge?p=@kabeep/neoconfig
+[install-size-url]: https://packagephobia.com/result?p=@kabeep/neoconfig
 
 [code-style-image]: https://img.shields.io/badge/Formatted_with-Biome-cornflowerblue?style=flat&logo=biome
 [code-style-url]: https://biomejs.dev/
@@ -172,7 +167,7 @@ neoconfig
 [asciinema-image]: https://asciinema.org/a/697466.svg
 [asciinema-url]: https://asciinema.org/a/697466
 
-[license-image]: https://img.shields.io/github/license/kabeep/neofetch?color=slateblue
+[license-image]: https://img.shields.io/github/license/kabeep/neoconfig?color=slateblue
 [license-url]: LICENSE
 
 [en-us-url]: README.md
@@ -181,6 +176,9 @@ neoconfig
 [locale-en-us-url]: src/locale/en-US.ts
 [locale-zh-cn-url]: src/locale/zh-CN.ts
 
-[forex-url]: https://github.com/kabeep/forex
+[neofetch-url]: https://github.com/dylanaraps/neofetch
+[nerd-url]: https://www.nerdfonts.com/font-downloads
+[neofetch-themes-url]: https://github.com/Chick2D/neofetch-themes
+[neocat-url]: https://github.com/m3tozz/NeoCat
 
-[issues-url]: https://github.com/kabeep/neofetch/issues
+[issues-url]: https://github.com/kabeep/neoconfig/issues
