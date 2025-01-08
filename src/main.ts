@@ -9,7 +9,7 @@ import {
     navigate,
     validate,
 } from './helpers';
-import { i18n, isWritable, to } from './utils';
+import { i18n, isWritable, palette, to } from './utils';
 
 export interface Options {
     _: (string | number)[];
@@ -46,7 +46,7 @@ async function main(_: Options, spinner: Ora) {
     const [copyErr] = await to(copy(path, CONFIG_DIR));
     if (copyErr)
         throw new Error(i18n.t('CMD_ERR.COPY', { reason: copyErr.message }));
-    spinner.succeed(i18n.t('CMD_SUCCESS', { name }));
+    spinner.succeed(i18n.t('CMD_SUCCESS', { name: palette.yellow(name) }));
 }
 
 export default boundary<[Options]>(main);

@@ -1,6 +1,6 @@
 export default {
     CMD_NAVIGATE: '请选择一个 NeoFetch 主题:',
-    CMD_SUCCESS: '已替换主题 {{name}}',
+    CMD_SUCCESS: '主题 {{name}} 已成功应用',
 
     CMD_TIP: {
         MOVE_CURSOR: '按 {{key}} 移动光标',
