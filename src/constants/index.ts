@@ -8,6 +8,8 @@ export const THEME_DIR = join(CONFIG_DIR, 'themes');
 
 export const FIGURES = isUnicodeSupported()
     ? {
+          TICK: '✔',
+          CROSS: '✖',
           POINT: '❯',
           ARROW_LEFT: '',
           ARROW_RIGHT: '',
@@ -21,6 +23,8 @@ export const FIGURES = isUnicodeSupported()
           EACCES_DIR: '',
       }
     : {
+          TICK: '√',
+          CROSS: '×',
           POINT: '>',
           ARROW_LEFT: '◄',
           ARROW_RIGHT: '►',

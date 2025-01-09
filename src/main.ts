@@ -1,4 +1,3 @@
-import type { Ora } from 'ora';
 import trash from 'trash';
 import { CONFIG_DIR, THEME_DIR } from './constants';
 import {
@@ -16,7 +15,7 @@ export interface Options {
     $0: string;
 }
 
-async function main(_: Options, spinner: Ora) {
+async function main(_: Options) {
     const _isWritable = await isWritable(CONFIG_DIR);
     if (!_isWritable)
         throw new Error(i18n.t('CMD_ERR.EACCES_W_DIR', { path: CONFIG_DIR }));
@@ -46,7 +45,7 @@ async function main(_: Options, spinner: Ora) {
     const [copyErr] = await to(copy(path, CONFIG_DIR));
     if (copyErr)
         throw new Error(i18n.t('CMD_ERR.COPY', { reason: copyErr.message }));
-    spinner.succeed(i18n.t('CMD_SUCCESS', { name: palette.yellow(name) }));
+    return i18n.t('CMD_SUCCESS', { name: palette.yellow(name) });
 }
 
-export default boundary<[Options]>(main);
+export default boundary(main);

@@ -1,16 +1,23 @@
-import ora, { type Ora } from 'ora';
-import { i18n, to } from '../utils';
+import { FIGURES } from '../constants';
+import { i18n, palette, to } from '../utils';
 
-function boundary<T extends unknown[] = unknown[], R = unknown>(
-    fn: (...args: [...T, Ora]) => Promise<R | undefined>,
-) {
-    return async (...args: T): Promise<void> => {
-        const spinner = ora({ color: 'cyan' });
+// biome-ignore lint/suspicious/noExplicitAny: type inference
+function boundary<T extends (...args: any[]) => Promise<any>>(fn: T) {
+    return async (...args: Parameters<T>): Promise<void> => {
+        const [err, stdout] = await to(fn(...args));
 
-        const [err] = await to(fn(...args, spinner));
+        const prefix = err
+            ? palette.red(FIGURES.CROSS)
+            : palette.green(FIGURES.TICK);
+
         if (err) {
-            spinner.fail(err.message || i18n.t('CMD_ERR'));
+            const stderr = err.message || i18n.t('CMD_ERR');
+            console.error(`${prefix} ${stderr}`);
+
+            return;
         }
+
+        console.log(`${prefix} ${stdout}`);
     };
 }
 
