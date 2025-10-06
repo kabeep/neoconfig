@@ -29,7 +29,7 @@
         "yargs": "^17.7.2"
     },
     "devDependencies": {
-        "@biomejs/biome": "^1.9.4",
+        "@biomejs/biome": "^2.2.5",
         "@inquirer/type": "^3.0.2",
         "@kabeep/node-translate-i18n": "^1.1.0",
         "@swc/core": "^1.10.6",
