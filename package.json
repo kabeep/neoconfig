@@ -38,7 +38,7 @@
         "@types/yargs": "^17.0.33",
         "cloc": "^2.2.0-cloc",
         "husky": "^9.1.7",
-        "lint-staged": "^15.3.0",
+        "lint-staged": "^16.2.4",
         "size-limit": "^11.1.6",
         "size-limit-preset-node-lib": "^0.3.0",
         "ts-node": "^10.9.2",
